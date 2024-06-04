@@ -57,5 +57,5 @@ void main() {
   // Assignation combinée ( +=, -=, *=, /=, %= )
   int a = 5;
   a = a + 3;
-  a += 3; // vaut 8cd c
+  a += 3; // vaut 8
 }
