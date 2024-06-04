@@ -100,7 +100,7 @@ void main(){
     print('Avec ou sans sucre ? (oui/non)');
     final String champSucre = stdin.readLineSync()!;
 
-    bool sucre = champSucre.toLowerCase() == 'oui ? true : false;';
+    bool sucre = champSucre.toLowerCase() == 'oui' ? true : false;
     
     switch(champBoisson){
         case 1:
