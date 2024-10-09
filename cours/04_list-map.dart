@@ -65,16 +65,16 @@ void main() {
   afficher nb pays
   1er pays
   suppr
-  affich si liste est vide
+  affiche si liste est vide
   ajouter 3 pays dans la liste
   afficher la liste
   suppr le dernier
   */
 
-  print(paysMonde.length);
-  print(paysMonde[0]); // ou paysMonde.length;
-  paysMonde.clear();
-  print('La liste est vide ? ${paysMonde.isEmpty ? 'oui' : 'non'}');
+  print(paysMonde.length); // afficher nb pays
+  print(paysMonde[0]); // ou paysMonde.length; // 1er pays
+  paysMonde.clear(); // 1er pays
+  print('La liste est vide ? ${paysMonde.isEmpty ? 'oui' : 'non'}'); // affiche si liste est vide
   print('La liste est vide ? ${paysMonde.length == 0 ? 'oui' : 'non'}');
   paysMonde.addAll(['Japon', 'Tunisie', 'Hongrie']);
   print(paysMonde);
