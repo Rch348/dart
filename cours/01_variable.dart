@@ -1,42 +1,53 @@
-void main() {
-  // Déclaration d'une variable
-  String name = 'Feisar';
 
-  // Déclaration d'une variable (camelCase)
+
+
+void main() 
+{
+   // Déclaration d'une variable :
+   String name = 'Feisar';
+
+  // Déclaration d'une variable (camelCase) :
   var nomDeVariable = 'toto';
-  // Déclaration d'une variable (PascalCase)
+
+  // Déclaration d'une variable (PascalCase) :
   var AutreNom;
-  // Déclaration d'une variable (snake_case)
+
+  // Déclaration d'une variable (snake_case) :
   var nom_var;
 
+
+
   /**
-   * int : entiers (integers)
-   * double : décimaux, nombres à virgule flottante
-   * String : chaînes de caractères *MAJ*
-   * bool : booléen (true/false)
-   * List : liste d'éléments (array/tableau) *MAJ*
-   * Map : associations clé-valeurs (array assoc/tableau associatif) *MAJ*
-   * dynamic : type de donnée pouvant changer pendant l'exécution 
+   * int : entiers (integers).
+   * double : décimaux, nombres à virgule flottante.
+   * String : chaînes de caractères (1° lettre en MAJ.).
+   * bool : booléen (true/false).
+   * List : liste d'éléments (array/tableau) (1° lettre en MAJ.).
+   * Map : associations clé-valeurs (array assoc/tableau associatif) (1° lettre en MAJ.).
+   * dynamic : type de donnée pouvant changer pendant l'exécution.
    */
+
+
 
   int nombre = 10;
   double prix = 99.99;
 
   bool isMajor = true;
 
+  // Tableau indexé contenant des clés de type entier numérique et des valeurs pouvant prendre n'importe quel type :
   List<String> fruits = ['pomme', 'poire', 'orange'];
 
-  // Tableau associatif contenant des clés de type chaînes de caractères et des valeurs pouvant prendre n'importe quel type
+  // Tableau associatif contenant des clés de type chaînes de caractères et des valeurs pouvant prendre n'importe quel type :
   Map<String, dynamic> uti = {'nom': 'Feisar', 'age': 27, 'aVoiture': true};
 
   // Constantes :
   const dbNom = 'domotique';
 
-  // Pour les valeurs ne pouvant pas être connues avant la compilation
+  // Pour les valeurs ne pouvant pas être connues avant la compilation :
   final temps = DateTime.now();
 
-  // Résumé
-  // Deux types de nombres
+  // RÉSUMÉ :
+  // Deux types de nombres :
   int x = 100;
   double y = 22.9;
   int z = 50;

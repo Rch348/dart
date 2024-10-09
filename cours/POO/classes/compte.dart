@@ -1,10 +1,10 @@
 import 'dart:io';
 
-class BankAccount {
-  String firstName;
+class BankAccount
+{
+    String firstName;
   String lastName;
-  double
-      _balance; // Attribut privé (sauf dans ce fichier) : permet de sécuriser l'accès à une donnée
+  double _balance; // Attribut privé (sauf dans ce fichier) : permet de sécuriser l'accès à une donnée
 
   BankAccount(this.firstName, this.lastName, this._balance);
 

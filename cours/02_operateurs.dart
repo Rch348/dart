@@ -36,6 +36,8 @@ void main() {
   bool estSup = (5 > 3); // estSup vaut true
   print(estSup);
 
+
+
   // OPERATEUR LOGIQUE
 
   // Et logique

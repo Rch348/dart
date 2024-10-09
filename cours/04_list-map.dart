@@ -7,8 +7,8 @@ void main() {
   // Ajouter un élément à la fin du tableau
   nombres.add(5);
 
-  print(nombres);
-  print(nombres[0]);
+  print(nombres); // 1, 2, 3, 4, 5
+  print(nombres[0]); // 1
 
   List<dynamic> pays = [
     'France',
@@ -24,10 +24,9 @@ void main() {
   print(pays[4].length); // Affiche la longueur du tableau imbriqué
   print(pays[4][1].length); // Affiche la longueur du mot 'baguette
   print(pays.first); // Affiche le 1er élément du tableau
-  print(pays.last); // Affiche le dernier élément du tableau (le 2ème tableau)
+  print(pays.last); // Affiche le dernier élément du tableau
   print(pays.last.last); // Affiche le dernier élément du tableau imbriqué
-  print(pays[4]
-      .last); // Idem mais plus optimisé (ne calcule pas le nombre d'éléments présents dans le tableau)
+  print(pays[4].last); // Idem mais plus optimisé (ne calcule pas le nombre d'éléments présents dans le tableau)
   print(pays[4][1]); // Affiche 'baguette'
 
   if (pays.isEmpty) {

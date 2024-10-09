@@ -6,9 +6,9 @@ void main(){
     // Exécutera une instruction
   }
 
+
+
   double moyenne = 12.3;
-
-
 
   // IF ELSE ( SI ... SINON )
   if(moyenne == 12.3){
