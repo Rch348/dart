@@ -1,23 +1,32 @@
-void main() {
-  // var vehicules = {
+void main() 
+{
+
+  // var vehicules = 
+  // {
   //   'voitures': ['C3 aircross', 'Passat', 'Dacia Sandero'],
   //   'Camions': ['Renault truck', 'Mercedes-Benz Unimog']
   // };
 
-  // for (var vehicule in vehicules.values) {
+  // for (var vehicule in vehicules.values)
+  // {
   //   print(vehicule);
   // }
 
-  // ou
+  // OU :
 
-  // for (var vehicule in vehicules.keys) {
+  // for (var vehicule in vehicules.keys)
+  // {
+
   //   print(vehicule);
-  //   for (var modele in vehicules[vehicule]) {
-  //      print('- )
-  //  }
+  //   for (var modele in vehicules[vehicule])
+  //   {
+  //      print('- ... )
+  //   }
+
   // }
 
-  var vehicules = [
+  var vehicules = 
+  [
     {
       'voitures': ['C3 aircross', 'Passat', 'Dacia Sandero']
     },
@@ -26,8 +35,10 @@ void main() {
     }
   ];
 
-  for (var vehicule in vehicules) {
-    for (var element in vehicule.values) {
+  for (var vehicule in vehicules)
+  {
+    for (var element in vehicule.values)
+    {
       print(element);
     }
   }

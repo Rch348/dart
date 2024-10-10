@@ -1,14 +1,24 @@
+/**
+ * Exercice 3 :
+ *
+ * Écrivez un programme qui demande à l'utilisateur de saisir une note entière et affiche la mention correspondant à sa moyenne.
+ */
+
+
+
 import 'dart:io';
 
-void main(){
+void main()
+{
 
-    print('Entrez une note entière.');
+    print('Entrez une note entière : ');
     
     final double champNote = double.parse(stdin.readLineSync()!);
 
-    switch(champNote){
+    switch (champNote)
+    {
       case >= 10 && < 12:
-        print('Vous êtes passable.');
+        print('Vous avez la mention passable.');
         break;
       case >= 12 && < 14:
         print('Vous avez la mention assez bien.');
@@ -26,14 +36,7 @@ void main(){
         print('Redoublez d\'effort !');
         break;
       default:
-        print('Entrez une note entre 0 et 20');
+        print('Entrez une note entre 0 et 20.');
     }
-
-
-
-  // CORRECTION
-
-
-
   
 }

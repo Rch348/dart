@@ -9,7 +9,7 @@
 void main() 
 {
   
-  // FOR
+  // FOR :
   // for (int i = 0; i < 10; i++) 
   // {
   //   print('Dart est FUN.');
@@ -23,7 +23,7 @@ void main()
 
   // print(message);
 
-  // WHILE
+  // WHILE :
   // int j = 0;
   // while (j < 10) 
   // {
@@ -31,15 +31,14 @@ void main()
   //   print('Dart est FUN.');
   // }
 
-  // DO WHILE
+  // DO WHILE :
   int j = 0;
   
   do 
   {
-    
     j++;
     print('Dart est FUN.');
-  
-  } while (j < 10);
+  } 
+  while (j < 10);
 
 }

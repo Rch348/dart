@@ -1,6 +1,7 @@
 import 'dart:io';
 
-void main(){
+void main()
+{
 
 //     print('Sélectionnez une boisson.');     
 
@@ -17,7 +18,8 @@ void main(){
 //     print('Avec ou sans sucre ? (oui/non)');
 //     final String champSucre = stdin.readLineSync()!;
     
-//     switch(champBoisson){
+//     switch (champBoisson)
+//     {
 //         case '1':
 //             print('Voici votre café');
 //             break;
@@ -43,11 +45,14 @@ void main(){
 //             print('Saisir un chiffre entre 1 et 7 correspondant à votre choix');
 //     }
 
-// print('Sélectionnez une boisson.');
+
+
+//     print('Sélectionnez une boisson.');
 //     champBoisson = stdin.readLineSync()!;
 //     print('Vous avez choisi $champBoisson.');
     
-//     switch(champBoisson){
+//     switch (champBoisson)
+// {
 //         case 'Café':
 //             print('du café');
 //             break;
@@ -75,17 +80,22 @@ void main(){
 
 
 
-//     if(champSucre == 'oui'){
+//     if(champSucre == 'oui')
+//     {
 //         print('Vous avez choisi $champBoisson avec sucre !');
-//     } else if(champSucre == 'non'){
+//     }
+//     else if (champSucre == 'non')
+//     {
 //         print('Vous avez choisi $champBoisson sans sucre !');
-//     } else {
+//     }
+//     else
+//     {
 //         print('Saisir oui ou non');
 //     }
 
-// OU
+// OU :
 
-  print('Sélectionnez une boisson.');     
+    print('Sélectionnez une boisson.');     
 
     print('1 - Café');
     print('2 - Thé');
@@ -102,7 +112,8 @@ void main(){
 
     bool sucre = champSucre.toLowerCase() == 'oui' ? true : false;
     
-    switch(champBoisson){
+    switch (champBoisson)
+    {
         case 1:
             print('Voici votre café ${ sucre ? 'sucré' : ''}');
             break;

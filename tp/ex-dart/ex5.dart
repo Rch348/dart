@@ -1,14 +1,17 @@
 import 'dart:io';
 
-void main(){
+void main()
+{
 
-    print('Entrez un nombre entre 1 et 7.');
+    print('Entrez un nombre entre 1 et 7 : ');
 
     final int champNb = int.parse(stdin.readLineSync()!);
 
-    print('Saisie : $champNb'); // Confirmation du nombre saisi
+    // Confirmation du nombre saisi :
+    print('Saisie : $champNb');
     
-    switch(champNb){            // switch = "selon"
+    switch(champNb)
+    {            // switch = "selon".
         case 1:
             print('Lundi');
             break;

@@ -7,7 +7,7 @@ String estPalindrome(String mot) {
   return '$mot est un palindrome.';
 }
 
-// OU
+// OU :
 
 bool pal(String mot) {
   String motInv = '';
@@ -18,7 +18,7 @@ bool pal(String mot) {
   return motInv == mot;
 }
 
-// OU
+// OU :
 
 bool isPalindrome(String mot){
   mot = mot.toLowerCase();
@@ -27,13 +27,14 @@ bool isPalindrome(String mot){
 }
 
 void main() {
+
   String palindrome = estPalindrome('ana');
   print(palindrome);
 
   bool pali = pal('ani');
   print(pali);
 
-  //OU
+  // OU :
 
   String mot1 = 'radar';
   String mot2 = 'voiture';
@@ -41,5 +42,6 @@ void main() {
   print('$mot1 est un palindrome : ${mot1}');
   print('$mot2 est un palindrome : ${mot2}');
 
-  print('$mot1 ${isPalindrome(mot1) ? 'est un palindrome.' : 'n\est pas un palindrome.'}');
+  print('$mot1 ${isPalindrome(mot1) ? 'est un palindrome.' : 'n\'est pas un palindrome.'}');
+
 }
